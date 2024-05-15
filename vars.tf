@@ -13,7 +13,7 @@ variable "az" {
 variable "itype" {
   description = "variable for instance type"
   type        = string
-  #default     = "t2.micro"
+  default     = "t2.micro"
 }
 
 variable "kname" {
